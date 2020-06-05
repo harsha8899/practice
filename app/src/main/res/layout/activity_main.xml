@@ -8,16 +8,16 @@
     tools:context=".MainActivity">
 
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:text="@string/education" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:text="@string/education" />
 
 
         <Button
@@ -29,23 +29,24 @@
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="150dp"
-        android:layout_height="80dp"
-        android:text="@string/hospitals" />
 
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal" />
-
-
-</LinearLayout>
+            android:orientation="horizontal" >
 
     <Button
         android:layout_width="150dp"
         android:layout_height="80dp"
         android:text="@string/tourism" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="@string/hospitals" />
+
+</LinearLayout>
+
+
 </LinearLayout>
 
 
