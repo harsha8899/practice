@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">practice</string>
+    <string name="tourism">Tourism</string>
+    <string name="education">Education</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="security">Security</string>
+    <string name="education">Education</string>
+</resources>
